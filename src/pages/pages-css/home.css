@@ -1,0 +1,147 @@
+.home-container {
+  background-color: #121620;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 300px;
+  text-align: center;
+  margin-left: -800px;
+  margin-bottom: 200px;
+}
+
+.hero-text {
+  margin-bottom: 50px;
+}
+
+.heroDesign1 {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 600px;
+  height: auto;
+}
+
+.title1,
+.title2 {
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.title2 {
+  color: #00a7e0;
+  margin-top: -70px;
+}
+
+.introButton1,
+.introButton2 {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00a7e0;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 18px;
+  border: none;
+  width: 200px;
+}
+
+.introButton2 {
+  margin-left: 40px;
+  background-color: #2a2b30;
+}
+
+.introButton1:hover {
+  background-color: #007a9b;
+}
+
+.introButton2:hover {
+  background-color: #007a9b;
+}
+
+.facebook-icon {
+  width: 20px;
+  height: auto;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    margin-left: 0;
+    padding: 20px;
+    margin-top: 150px;
+  }
+
+  .heroDesign1 {
+    position: static;
+    transform: none;
+    width: 90%;
+    max-width: 300px;
+    margin-top: 40px;
+  }
+
+  .title1,
+  .title2 {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .title1 {
+    margin-bottom: 10px;
+  }
+
+  .introButton1,
+  .introButton2 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .introButton2 {
+    margin-top: 10px;
+  }
+}
+
+
+.contact-section {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.contact-title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contactButton {
+  padding: 10px 20px;
+  background-color: #00a7e0;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 18px;
+  border: none;
+}
+
+.contactButton:hover {
+  background-color: #007a9b;
+}
